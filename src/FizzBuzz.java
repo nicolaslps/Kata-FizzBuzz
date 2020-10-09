@@ -1,7 +1,7 @@
 public class FizzBuzz {
 
     //vérifier si le nombre est un multiple de 3
-    public static boolean isMultiple3(int nombre){
+    public boolean isMultiple3(int nombre){
         if(nombre % 3 == 0){
             return true;
         }else{
@@ -10,7 +10,7 @@ public class FizzBuzz {
     }
 
     //vérifier si le nombre est un multiple de 5
-    public static boolean isMultiple5(int nombre){
+    public boolean isMultiple5(int nombre){
         if(nombre % 5 == 0){
             return true;
         }else{
@@ -19,7 +19,7 @@ public class FizzBuzz {
     }
 
     //vérifier si le nombre est un multiple de 3 et de 5
-    public static boolean isMultiple3And5(int nombre){
+    public boolean isMultiple3And5(int nombre){
         if(isMultiple3(nombre) && isMultiple5(nombre)){
             return true;
         }else{
@@ -27,7 +27,7 @@ public class FizzBuzz {
         }
     }
 
-    public static void main(String[] args) {
+    public void Fizzbuzz() {
         //Boucle pour traiter les nombres de 1 à 100
         for (int nombre = 1 ; nombre <= 100 ; nombre ++){
             //si le nombre est un multiple de 3 et 5
