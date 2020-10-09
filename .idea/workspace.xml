@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1886a71d-b2cf-4a44-a82b-214d48211a59" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Test/FizzBuzzTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FizzBuzz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FizzBuzz.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,12 +29,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Test/FizzBuzzTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="39">
+              <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#151#152#0" expanded="true" />
-                <element signature="e#197#198#0" expanded="true" />
                 <element signature="e#417#418#0" expanded="true" />
                 <element signature="e#473#474#0" expanded="true" />
                 <element signature="e#526#527#0" expanded="true" />
@@ -136,7 +131,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
     <configuration name="FizzBuzz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FizzBuzz" />
       <module name="TP1_KATA" />
@@ -163,6 +158,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FizzBuzzTest.AssertToBeMultipleOf3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TP1_KATA" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
+      <option name="METHOD_NAME" value="AssertToBeMultipleOf3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FizzBuzzTest.isMultiple3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TP1_KATA" />
       <option name="PACKAGE_NAME" value="" />
@@ -173,23 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TP1_KATA" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FizzBuzzTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.AssertToBeMultipleOf3" />
+        <item itemvalue="Application.FizzBuzz" />
         <item itemvalue="JUnit.FizzBuzzTest.AssertToBeMultiple3" />
         <item itemvalue="JUnit.FizzBuzzTest.isMultiple3" />
-        <item itemvalue="JUnit.FizzBuzzTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -203,14 +198,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1602227164543</updated>
-      <workItem from="1602227167681" duration="3076000" />
+      <workItem from="1602227167681" duration="3298000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MainTest_test - 2020.10.09 at 09h 13m 32s.xml">
-      <configuration name="MainTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="MainTest_isMultiple3 - 2020.10.09 at 09h 19m 45s.xml">
       <configuration name="MainTest.isMultiple3" configurationId="JUnit" />
     </history-entry>
@@ -235,9 +227,15 @@
     <history-entry file="FizzBuzzTest - 2020.10.09 at 09h 51m 12s.xml">
       <configuration name="FizzBuzzTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="FizzBuzzTest - 2020.10.09 at 10h 00m 13s.xml">
+      <configuration name="FizzBuzzTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FizzBuzzTest_AssertToBeMultipleOf3 - 2020.10.09 at 10h 00m 32s.xml">
+      <configuration name="FizzBuzzTest.AssertToBeMultipleOf3" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3076000" />
+    <option name="totallyTimeSpent" value="3298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -254,11 +252,11 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3285968" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3285968" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4582593" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4582593" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -287,12 +285,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Test/FizzBuzzTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="39">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#151#152#0" expanded="true" />
-            <element signature="e#197#198#0" expanded="true" />
             <element signature="e#417#418#0" expanded="true" />
             <element signature="e#473#474#0" expanded="true" />
             <element signature="e#526#527#0" expanded="true" />
